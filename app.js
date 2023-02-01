@@ -1,28 +1,28 @@
 //----------------------------------BACKEND MASALALAR--------------------------------------------//
 
-// let a = "AZIZA"
-// function ot(a){
-//     if(a === a.split('').reverse().join('')){
-//         return true;
-//     }
-//     return false;
+// let a = "AZIZA";
+// function ot(a) {
+//   if (a === a.split("").reverse().join("")) {
+//     return true;
+//   }
+//   return false;
 // }
 // console.log(ot(a));
 
 //-----------------------------------------------//
 
-// let nums = [1,4,9,7,6,3,8,5,2]
-// let target = 9
-// function num() {
-//     for (const a of nums) {
-//         for (const b of nums) {
-//             if (nums[a] + nums[b] === target) {
-//                 console.log(nums[a], nums[b]);
-//             }
-//         }
+// let nums = [1, 4, 9, 7, 6, 3, 8, 5, 2];
+// let target = 9;
+// const num = () => {
+//   for (const a of nums) {
+//     for (const b of nums) {
+//       if (nums[a] + nums[b] === target) {
+//         console.log(nums[a], nums[b]);
+//       }
 //     }
-// }
-// num()
+//   }
+// };
+// num();
 
 //-----------------------------------------------//
 
@@ -74,7 +74,6 @@
 
 //-----------------------------------------------//
 
-
 // String.prototype.addOne = function () {
 //   let arr = this.trim().split(" ");
 //   return arr[arr.length - 1].length;
@@ -82,9 +81,7 @@
 // let string1 = "Man bugun vohli turdim";
 // console.log(string1.addOne());
 
-
 //-----------------------------------------------//
-
 
 // let car = {
 //     name:'Spark',
@@ -101,9 +98,7 @@
 
 // car.sayName.bind(car2, 'Chevrolet')()
 
-
 //-----------------------------------------------//
-
 
 // let animal_1 = {
 //     turi: 'xonaki',
@@ -129,48 +124,36 @@
 // animal_1.info.bind(animal_2,'xonaki',4,'red')()
 // animal_1.info.call(animal_3,'xonaki')
 
-
 //-----------------------------------------------//
-
 
 // let arr = [3,2,1,2]
 // let arr1 = [1,4,5,3,5]
 // console.log(arr.sort());
 
-
 //-----------------------------------------------//
-
 
 // function summ(num, add = 0) {
-//     if (num % 2 !==0) {
-//         return `${add} marta bo'lindi ${num} eng kichik bo'linmagan son`
-//     }else{
-//      return summ(num / 2, add + 1 )   
-//     }
+//   if (num % 2 !== 0) {
+//     return `${add} marta bo'lindi \n ${num} eng kichik bo'linmagan son`;
+//   } else {
+//     return summ(num / 2, add + 1);
+//   }
 // }
-// console.log(summ(10));
-
+// console.log(summ(20));
 
 //-----------------------------------------------//
 
+// let a = 7;
+// let b = 19;
 
-// let a = 7 
-// let b = 19 
-
-// a = a + b
-// b = a - b
-// a = a - b
+// a = a + b;
+// b = a - b;
+// a = a - b;
 
 // console.log(a);
 // console.log(b);
 
-
 //-----------------------------------------------//
-
-
-
-
-
 //-----------------------------------------------//
 //-----------------------------------------------//
 //-----------------------------------------------//
