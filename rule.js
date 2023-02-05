@@ -1,82 +1,59 @@
 //---------------------------------------BACKEND---------------------------------------------------//
 
-
 //Hoisting function Declarationda va VARda Heap memoryda undefined bo'lib turadi!
 
-
 //-----------------------------------------------//
-
 
 //TDZ o'lik zona
 
-
 //-----------------------------------------------//
-
 
 //Inpure function
 //Tashqi tasir boganda va returnda hechnma qaytmasa inpure function
 
-
 //-----------------------------------------------//
-
 
 //Pure function
 //Function ichida elon qilinsa yoki parametr orqali kirasa va tashqi tasir bomasa pure function
 
-
 //-----------------------------------------------//
-
 
 //Recourse function
 //Wu functionni ozini ichiga ozini chaqiriw
 
-
 //-----------------------------------------------//
 
-
-//Metod substr 
+//Metod substr
 //Bu stringlarni slice kabi qirqib beradi faqat slice arraylar uchun
 
-
 //-----------------------------------------------//
-
 
 //WebApi
 //Bu ozida Callstackdan kegan Timer, Promise, DOM va fetchlarni ozida vaqtincha saqlaydi
 
-
 //-----------------------------------------------//
-
 
 //Callback queue
 //Bu navbat. Bu 2ga bo'linadi Microtask va Macrotask
 
-
 //-----------------------------------------------//
-
 
 //Microtask
 //Bu oziga Promiseni qabul qiladi
 
-
 //-----------------------------------------------//
-
 
 //Macrotask
-//Bu oziga 
-
+//Bu oziga
 
 //-----------------------------------------------//
-
 
 //Use Strict
 //'use strict' deb yoziladi va u thisni ishlatganda undifined chiqaradi
 
-
 //-----------------------------------------------//
 
-
-//bind() 
+//bind()
 //Bu metod Objectlar uchun ishlidi
 
 //call()
@@ -85,44 +62,32 @@
 //apply()
 //Bu metod call bilan bir xil faqat 2ta parametr qabul qiladi va 2 parametr array boladi
 
-
 //-----------------------------------------------//
 
-
-//This 
+//This
 //Function ichida function ishlatilsa va uni ichida this bolsa Windowga murojat qiladi
 
-
 //-----------------------------------------------//
 
-
-//Stack overflow 
+//Stack overflow
 //Stack to'lsa RangeError beradi
 
-
 //-----------------------------------------------//
 
-
-//Scope 
+//Scope
 //3 xil bo'ladi Global, Function, Block
 
-
 //-----------------------------------------------//
-
 
 //Scope chainig
 //Bu ichma-ich functionda ozidan oldingi ozgaruvchiga murojat qilish
 
-
 //-----------------------------------------------//
-
 
 //Garbage collection
 //Buni vazifasi biz iwlatmagan codelarni tozalaydi va bu JS tomonidan qilinadi
 
-
 //-----------------------------------------------//
-
 
 //Errors
 
@@ -141,17 +106,23 @@
 //URI
 //URLda xato bo'lsa
 
-
 //-----------------------------------------------//
-
 
 //typyOf
 //typyOf bergan javobi stringda bo'ladi va 2 marta typeOf ketma-ket iwlatsak faqat va faqat string beradi
 
+//-----------------------------------------------//
+
+//Incapsulation
+//# bilan berkitib qoyish
 
 //-----------------------------------------------//
+
+//Abstraction
+//# bilan berkitilganni narsani function orqali olib beradi
+
 //-----------------------------------------------//
-//-----------------------------------------------//
+
 //-----------------------------------------------//
 //-----------------------------------------------//
 //-----------------------------------------------//

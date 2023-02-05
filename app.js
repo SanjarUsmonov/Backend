@@ -213,5 +213,23 @@
 // console.log(obj.age);
 
 //-----------------------------------------------//
+
+class Animal {
+  #age; //Incapsulation
+  name;
+  country;
+  constructor(age, name, country) {
+    this.#age = age;
+    this.name = name;
+    this.country = country;
+  }
+  say() {
+    return `Uning yoshi ${this.#age}`; //Abstraction
+  }
+}
+const animal_1 = new Animal(4, "Peter", "Russia");
+console.log(animal_1.say());
+console.log(animal_1.age); //undifined chunki Animal scope ichida age # bilan privite
+
 //-----------------------------------------------//
 //-----------------------------------------------//
