@@ -142,7 +142,19 @@
 //U yangi sozni eskisi oldiga qoshib qoyadi
 
 //-----------------------------------------------//
+
+//http
+//Yaqqol saytni nomini yaqqol korsatib turadi
+
 //-----------------------------------------------//
+
+//https
+//Bu esa sayt nomini shriftlab beradi
+
 //-----------------------------------------------//
+
+//NodeJS
+//Runtime engine. Ya'ni JavaScript kodni brauzerdan tashqarida ishlatib beruvchi engine. 2009-yilgacha JavaScript faqat brauzerda ishlatilgan.  NodeJs esa brauzerdan tashqarida ishlatish uchun yechim tariqasida ishlab chiqilgan.
+
 //-----------------------------------------------//
 //-----------------------------------------------//
