@@ -233,45 +233,97 @@
 
 //-----------------------------------------------//
 
-class Animal {
-  #age; //Incapsulation
-  name;
-  foot;
-  constructor(age, name, foot) {
-    this.#age = age;
-    this.name = name;
-    this.foot = foot;
-  }
-  say() {
-    return 1; //Abstraction
-  }
-}
+// class Animal {
+//   #age; //Incapsulation
+//   name;
+//   foot;
+//   constructor(age, name, foot) {
+//     this.#age = age;
+//     this.name = name;
+//     this.foot = foot;
+//   }
+//   say() {
+//     //Polymorphizm
+//     return 1; //Abstraction
+//   }
+// }
 
-class Dog extends Animal {
-  //Inheritance
-  constructor(boyinbogi, age, name, foot) {
-    super(age, name, foot);
-    this.boyinbogi = boyinbogi;
-    this.age = age;
-  }
-  say() {
-    return 2;
-  }
-}
+// class Dog extends Animal {
+//   //Inheritance
+//   constructor(boyinbogi, age, name, foot) {
+//     super(age, name, foot);
+//     this.boyinbogi = boyinbogi;
+//     this.age = age;
+//   }
+//   say() {
+//     //Polymorphizm
+//     return 2;
+//   }
+// }
 
-class Cat extends Dog {
-  //Inheritance
-  constructor(boyinbogi, age, name, foot) {
-    super(boyinbogi, age, name, foot);
-  }
-  say() {
-    return 3;
-  }
-}
+// class Cat extends Dog {
+//   //Inheritance
+//   constructor(boyinbogi, age, name, foot) {
+//     super(boyinbogi, age, name, foot);
+//   }
+//   say() {
+//     //Polymorphizm
+//     return 3;
+//   }
+// }
 
-const animal_1 = new Dog(true, 6, "peter", 4);
-const animal_2 = new Cat(false, 7, "momiqvoy", 4);
-console.log(animal_2.say());
+// const animal_1 = new Dog(true, 6, "xatiko", 4);
+// const animal_2 = new Cat(false, 7, "momiqvoy", 4);
+// console.log(animal_1);
 // console.log(animal_2);
 
+//-----------------------------------------------//
+
+// class Car {
+//   #balon;
+//   constructor(balon, oyna, eshik) {
+//     this.#balon = balon;
+//     this.oyna = oyna;
+//     this.eshik = eshik;
+//   }
+//   get balon() {
+//     return this.#balon;
+//   }
+//   set balon(a) {
+//     this.#balon = a;
+//   }
+// }
+
+// let car_1 = new Car(4, 6, 2);
+
+// car_1.balon = 8;
+
+// console.log(car_1.balon);
+
+//-----------------------------------------------//
+//-----------------------------------------------//
+//-----------------------------------------------//
+//-----------------------------------------------//
+//-----------------------------------------------//
+//-----------------------------------------------//
+//-----------------------------------------------//
+//-----------------------------------------------//
+//-----------------------------------------------//
+//-----------------------------------------------//
+//-----------------------------------------------//
+//-----------------------------------------------//
+//-----------------------------------------------//
+//-----------------------------------------------//
+//-----------------------------------------------//
+//-----------------------------------------------//
+//-----------------------------------------------//
+//-----------------------------------------------//
+//-----------------------------------------------//
+//-----------------------------------------------//
+//-----------------------------------------------//
+//-----------------------------------------------//
+//-----------------------------------------------//
+//-----------------------------------------------//
+//-----------------------------------------------//
+//-----------------------------------------------//
 //-----------------------------------------------//
