@@ -119,13 +119,28 @@
 //-----------------------------------------------//
 
 //Abstraction
-//# bilan berkitilganni narsani function orqali olib beradi
+//# bilan berkitilganni narsani function orqali olib beradi va Yoq narsa namoyon etib beradi. Agar metod ozi ham privite bolsa u ham metod orqali chiqarib olinadi
 
 //-----------------------------------------------//
 
+//Inheritance
+//Bu meros olish paarametrlarni umumumiy olgan holda ikkinchisiga shundoq ornatib
+
 //-----------------------------------------------//
+
+//Polymorphizm
+//Bitta metodga murojat qilganda ikkita javob qaytarsa bu Polymorphizm deyiladi
+
 //-----------------------------------------------//
+
+//OverRide
+//Yangi soz kelishi bilan eskisini ustiga yozib ketaveradi
+
 //-----------------------------------------------//
+
+//OverLoad
+//U yangi sozni eskisi oldiga qoshib qoyadi
+
 //-----------------------------------------------//
 //-----------------------------------------------//
 //-----------------------------------------------//

@@ -214,22 +214,64 @@
 
 //-----------------------------------------------//
 
+// class Animal {
+//   #age; //Incapsulation
+//   name;
+//   country;
+//   constructor(age, name, country) {
+//     this.#age = age;
+//     this.name = name;
+//     this.country = country;
+//   }
+//   say() {
+//     return `Uning yoshi ${this.#age}`; //Abstraction
+//   }
+// }
+// const animal_1 = new Animal(4, "Peter", "Russia");
+// console.log(animal_1.say());
+// console.log(animal_1.age); //undifined chunki Animal scope ichida age # bilan privite
+
+//-----------------------------------------------//
+
 class Animal {
   #age; //Incapsulation
   name;
-  country;
-  constructor(age, name, country) {
+  foot;
+  constructor(age, name, foot) {
     this.#age = age;
     this.name = name;
-    this.country = country;
+    this.foot = foot;
   }
   say() {
-    return `Uning yoshi ${this.#age}`; //Abstraction
+    return 1; //Abstraction
   }
 }
-const animal_1 = new Animal(4, "Peter", "Russia");
-console.log(animal_1.say());
-console.log(animal_1.age); //undifined chunki Animal scope ichida age # bilan privite
 
-//-----------------------------------------------//
+class Dog extends Animal {
+  //Inheritance
+  constructor(boyinbogi, age, name, foot) {
+    super(age, name, foot);
+    this.boyinbogi = boyinbogi;
+    this.age = age;
+  }
+  say() {
+    return 2;
+  }
+}
+
+class Cat extends Dog {
+  //Inheritance
+  constructor(boyinbogi, age, name, foot) {
+    super(boyinbogi, age, name, foot);
+  }
+  say() {
+    return 3;
+  }
+}
+
+const animal_1 = new Dog(true, 6, "peter", 4);
+const animal_2 = new Cat(false, 7, "momiqvoy", 4);
+console.log(animal_2.say());
+// console.log(animal_2);
+
 //-----------------------------------------------//
