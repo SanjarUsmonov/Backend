@@ -154,9 +154,64 @@
 // console.log(b);
 
 //-----------------------------------------------//
+
+// class Person {
+//   constructor(age, name) {
+//     this.age = age;
+//     this.name = name;
+//   }
+//   sayName() {
+//     return `Mening ismim ${this.name}, Yoshim esa ${this.age}da `;
+//   }
+// }
+
+// let person_1 = new Person(17, "Sanjar");
+// let person_2 = new Person(12, "Valijon");
+
+// console.log(person_1.sayName());
+// console.log(person_2.sayName());
+
 //-----------------------------------------------//
+
+// class Animal {
+//   constructor(name1, age) {
+//     this.name1 = name1;
+//     this.age = age;
+//   }
+//   say() {
+//     return true;
+//   }
+// }
+
+// let a = new Animal("Dog", 4);
+// let b = new Animal("Parrot", 1);
+// let c = new Animal("Cat", 7);
+
+// console.log(b.say());
+
 //-----------------------------------------------//
+
+// const Person = function (name, age) {
+//   this.name = name;
+//   this.age = age;
+// };
+
+// const person_1 = new Person("Sanjar", 17);
+
+// console.log(person_1);
+
 //-----------------------------------------------//
+
+// let obj = {
+//   age: 17,
+// };
+
+// Object.freeze(obj);
+
+// obj.age = 18;
+
+// console.log(obj.age);
+
 //-----------------------------------------------//
 //-----------------------------------------------//
 //-----------------------------------------------//
