@@ -202,6 +202,22 @@
 
 //-----------------------------------------------//
 
+// const pupils = [
+//   "Sanjar",
+//   "Valijon",
+//   "Mirabror",
+//   "Javohir",
+//   "Amirkhon",
+//   "Xasan",
+//   "Abdulaziz",
+//   "Ramziddin",
+//   "Umar",
+// ];
+// const random = pupils[Math.floor(Math.random() * pupils.length)];
+// console.log(random);
+
+//-----------------------------------------------//
+
 // let obj = {
 //   age: 17,
 // };
