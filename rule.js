@@ -154,7 +154,7 @@
 //-----------------------------------------------//
 
 //NodeJS
-//Runtime engine. Ya'ni JavaScript kodni brauzerdan tashqarida ishlatib beruvchi engine. 2009-yilgacha JavaScript faqat brauzerda ishlatilgan.  NodeJs esa brauzerdan tashqarida ishlatish uchun yechim tariqasida ishlab chiqilgan.
+//Runtime engine. Ya'ni JavaScript kodni brauzerdan tashqarida ishlatib beruvchi engine. 2009-yilgacha JavaScript faqat brauzerda ishlatilgan. NodeJs esa brauzerdan tashqarida ishlatish uchun yechim tariqasida ishlab chiqilgan. NodeJS C++ ustiga qurilgan
 
 //-----------------------------------------------//
 //-----------------------------------------------//
