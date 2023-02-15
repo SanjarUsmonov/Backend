@@ -157,8 +157,16 @@
 //Runtime engine. Ya'ni JavaScript kodni brauzerdan tashqarida ishlatib beruvchi engine. 2009-yilgacha JavaScript faqat brauzerda ishlatilgan. NodeJs esa brauzerdan tashqarida ishlatish uchun yechim tariqasida ishlab chiqilgan. NodeJS C++ ustiga qurilgan
 
 //-----------------------------------------------//
+
+//Benchmarking server
+
 //-----------------------------------------------//
-//-----------------------------------------------//
+
+//AutoCannon
+//Terminalni cmd joyiga yoziladi
+//npm i autocannon -g
+// autocannon -c 100 -d 10 http//:192.168.
+
 //-----------------------------------------------//
 //-----------------------------------------------//
 //-----------------------------------------------//
