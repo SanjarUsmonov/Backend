@@ -168,6 +168,24 @@
 // autocannon -c 100 -d 10 http//:192.168.
 
 //-----------------------------------------------//
+
+//NODE JS core modules
+
+//OS
+//Operation System asosan computer haqida info yigish bilan shug'ullanadi
+
+//FS
+//File System aslida object va uning metodlari bor
+
+//HTTP
+//Protokollar bilan ishlash uchun
+
+//EVENTS
+//Hodisalar bilan ishlaydi
+
+//Path
+//Pathlar bilan ishlaydigan module
+
 //-----------------------------------------------//
 //-----------------------------------------------//
 //-----------------------------------------------//
