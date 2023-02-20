@@ -171,6 +171,9 @@
 
 //NODE JS core modules
 
+//200 status
+//500 status backenda ayb
+
 //OS
 //Operation System asosan computer haqida info yigish bilan shug'ullanadi
 
@@ -187,7 +190,21 @@
 //Pathlar bilan ishlaydigan module
 
 //-----------------------------------------------//
+
+//Express js
+//NodeJS uchun tezkor va moslashuvchan framework
+
 //-----------------------------------------------//
+
+//res.send()
+//String yuboradi => "Ishladi"
+
+//res.json()
+//Object yuboradi => { message: Ok }
+
+//res.status()
+//Status yuboradi (200)
+
 //-----------------------------------------------//
 //-----------------------------------------------//
 //-----------------------------------------------//
