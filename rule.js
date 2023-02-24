@@ -211,6 +211,12 @@
 //Bu function bodyParse ga teng
 
 //-----------------------------------------------//
+
+// .env o'zgaruvchilarni ozida saqlovchi joy
+// 1 chi => npm i dotenv
+// 2 chi => require("dotenv").config()
+// 3 chi => process.env.O'zgaruvchi
+
 //-----------------------------------------------//
 //-----------------------------------------------//
 //-----------------------------------------------//
