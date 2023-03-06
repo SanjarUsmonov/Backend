@@ -44,7 +44,7 @@
 //-----------------------------------------------//
 
 //Macrotask
-//Bu oziga
+//Bu oziga Timer, DOM va fetchlarni qabul qiladi
 
 //-----------------------------------------------//
 
@@ -79,7 +79,7 @@
 
 //-----------------------------------------------//
 
-//Scope chainig
+//Scope chaining
 //Bu ichma-ich functionda ozidan oldingi ozgaruvchiga murojat qilish
 
 //-----------------------------------------------//
@@ -158,10 +158,6 @@
 
 //-----------------------------------------------//
 
-//Benchmarking server
-
-//-----------------------------------------------//
-
 //AutoCannon
 //Terminalni cmd joyiga yoziladi
 //npm i autocannon -g
@@ -208,30 +204,122 @@
 //-----------------------------------------------//
 
 //app.use(express.json())
-//Bu function bodyParse ga teng
+//Bu bodyParse ga teng
 
 //-----------------------------------------------//
 
-// .env o'zgaruvchilarni ozida saqlovchi joy
+// .env muhit o'zgaruvchilarni ozida saqlovchi joy
 // 1 chi => npm i dotenv
 // 2 chi => require("dotenv").config()
 // 3 chi => process.env.O'zgaruvchi
 
 //-----------------------------------------------//
+
+//argv
+//Terminaldagi sozlarni bosh joy boyicha array qilib qaytaradi
+
 //-----------------------------------------------//
+
+//request
+//Bu frontend dan keladigan so'rov
+
 //-----------------------------------------------//
+
+//response
+//Bu biz frontend ga yuboradigan javob
+
 //-----------------------------------------------//
+
+//Asnc
+//Bu data ni keyingisi kelguncha keyingisiga otib ketadi
+
 //-----------------------------------------------//
+
+//Sync
+//Bu data ni keyingisi kelguncha kutib turadi
+
 //-----------------------------------------------//
+
+//NodeJS da 3 xil module bor
+
+//Locall module
+//Biz o'zimiz yozgan
+
+//Core module
+//NodeJS da mavjud
+
+//Third party module
+//npm i orqali o'rnatgan
+
 //-----------------------------------------------//
+
+//<pending>
+//Kelmagan data ni log ga chiaqarganda beradi
+
 //-----------------------------------------------//
+
+//resolve
+//success
+
+//reject
+//unsuccess
+
 //-----------------------------------------------//
+
+//json
+//Java Script Object Notetion
+
 //-----------------------------------------------//
+
+//req.query
+//request ni url ni o'qib beradi
+
+//req.params
+//request ni url ni / dan keyingisini o'qib beradi
+
+//req.body
+//request dan kelayotgan data ni o'qib beradi
+
 //-----------------------------------------------//
+
+//uuid
+//Universal Unick ID 32 tadan iborat harflar bilan nom qo'yib beradi
+
+//joi
+//Bu frontdan kealyotgan data ni validate qilish
+
+//jwt
+//JsonWebToken Token yaratish va uni verify qilib o'qib olish
+
+//cors
+//frontdan kelayotgan IP ga dostup
+
 //-----------------------------------------------//
+
+//cookie-parser
+//Bu xotira
+//res.cookie("key", value)  data joylash
+//req.cookies(req.cookie)  data olish
+
 //-----------------------------------------------//
+
+//Architectura
+//SSR => Server Site Rendering
+//MVC => Model View Controller
+//DDD => Domain Driven Design
+
 //-----------------------------------------------//
+
+//app.use(express.urlencoded({extended: true}))
+//Bu HTML da formdan kelayotgan data ni formatga o'giruv beruvchi
+
 //-----------------------------------------------//
+
+//ejs
+//Bu backend da frontend yozish
+//app.set("view engine", "ejs")
+//app.set("views", "process.cwd()" + "src/views")
+
 //-----------------------------------------------//
 //-----------------------------------------------//
 //-----------------------------------------------//
