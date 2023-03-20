@@ -328,7 +328,16 @@
 //https://blog.logrocket.com/building-real-time-location-app-node-js-socket-io/
 
 //-----------------------------------------------//
+
+//PostgreSQL
+//SQL dasturlash turi ustiga qurilgan
+
 //-----------------------------------------------//
+
+//DataBase 2 xil bo'ladi
+//Relatsion
+//NoRelatsion
+
 //-----------------------------------------------//
 //-----------------------------------------------//
 //-----------------------------------------------//
