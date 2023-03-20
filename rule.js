@@ -321,6 +321,12 @@
 //app.set("views", "process.cwd()" + "src/views")
 
 //-----------------------------------------------//
+
+//Socket
+//Fronted bilan Backendni bir vaqtni o'zida ushlab turuvchi tool
+//npm i socket.io
+//https://blog.logrocket.com/building-real-time-location-app-node-js-socket-io/
+
 //-----------------------------------------------//
 //-----------------------------------------------//
 //-----------------------------------------------//
