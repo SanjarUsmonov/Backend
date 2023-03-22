@@ -338,7 +338,18 @@
 //Relatsion
 //NoRelatsion
 
-//-----------------------------------------------//
+//---------------------SQL-----------------------//
+
+//\c (database NAME)-----------------------------------------------------> DB ga ulanish
+//\d---------------------------------------------------------------------> Qaysi TABLE turganimizni ni ko'rish
+//Default ""-------------------------------------------------------------> 1 talik '' agar "" bo'lsa ERROR
+//ALTER TABLE users ADD COLUMN age---------------------------------------> Qo'shish
+//ALTER TABLE users ALTER COLUMN age TYPE varchar(12)--------------------> TYPE alishtirish
+//ALTER TABLE users DROP COLUMN age--------------------------------------> Chopish
+//ALTER TABLE users RENAME age TO yosh-----------------------------------> Alishtirish
+//ALTER TABLE users ADD unique(type)-------------------------------------> TYPE qo'shish
+//ALTER TABLE users ALTER COLUMN age SET NOT NULL------------------------> NOT NULL va Default qo'shish
+
 //-----------------------------------------------//
 //-----------------------------------------------//
 //-----------------------------------------------//
