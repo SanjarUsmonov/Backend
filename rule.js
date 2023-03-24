@@ -349,6 +349,9 @@
 //ALTER TABLE users RENAME age TO yosh-----------------------------------> Alishtirish
 //ALTER TABLE users ADD unique(type)-------------------------------------> TYPE qo'shish
 //ALTER TABLE users ALTER COLUMN age SET NOT NULL------------------------> NOT NULL va Default qo'shish
+//SEEDER-----------------------------------------------------------------> DEMO DATALAR
+//INSERT INTO users(el, el)VALUES(el, el)--------------------------------> VALUE ketma-ketligi bir xil bo'lishi kerak
+//SELECT * || (id, username) from users----------------------------------> DATABASE dagi hammasini olish
 
 //-----------------------------------------------//
 //-----------------------------------------------//
