@@ -15,8 +15,8 @@ INSERT INTO book(
     about,
     count
 )VALUES(
-    'nnnn',
-    'ttttt',
-    'aaaaa',
-    45
+    'name',
+    'title',
+    'about',
+    17
 );
