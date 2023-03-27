@@ -20,3 +20,5 @@ INSERT INTO book(
     'about',
     17
 );
+
+SELECT * from book
