@@ -866,3 +866,494 @@
 // 		console.log(err);
 // 	}
 // });
+
+// function birthdayCakeCandles(ar) {
+//   let a = 0;
+//   let max = 0;
+
+//   for (let i = 0; i < ar.length; i++) {
+//     if (ar[i] > max) {
+//       max = ar[i];
+//       a = 1;
+//     } else {
+//       if (max == ar[i]) {
+//         a++;
+//       }
+//     }
+//   }
+//   return a;
+// }
+
+//find(), filter(), includes(), reduce(), reverse(), slice(a, b), splice(a, b), sort(), some()
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const metod = arr.find((el)=> el == 5)
+// const metod = arr.filter((el)=> el > 5)
+// const metod = arr.includes(5)
+// const metod = arr.reduce((a, b) => a + b);
+// const metod = arr.reverse()
+// const metod = arr.slice(0,5)
+// const metod = arr.splice(0,5)
+// const metod = arr.sort() //sort() => 1)array, 2)number, 3)object, 4)string, 5)boolean, 6)undifined
+// const metod = arr.some((el) => el == 4)
+// console.log(metod);
+
+//Masala - 1
+
+// function Width(a) {
+//     let L = 100
+//     console.log(L * a);
+// }
+// Width(5)
+
+//Masala - 2
+
+// function Weight(a) {
+//     let M = 1000
+//     console.log(M * a);
+// }
+// Weight(5)
+
+//Masala - 3
+
+// function Bayt(a) {
+//     let B = 1024
+//     console.log(B * a);
+// }
+// Bayt(5)
+
+//Masala - 4
+//Masala - 5
+//Masala - 6
+
+// function TwoNum(a) {
+//   let b = a.toString().split('')
+//   for (let i = 0; i < b.length; i++) {
+//     const el = parseInt(b[i]);
+//     console.log(el);
+//   }
+// }
+// TwoNum(78)
+
+//Masala - 7
+
+// function Plus(a) {
+//     let b = a.toString().split('')
+//     for (let i = 0; i < b.length; i++) {
+//         let r = parseInt(b[0])
+//         let t = parseInt(b[1])
+//         let all = r + t
+//         console.log(all);
+//     }
+// }
+// Plus(75)
+
+//Masala - 8
+
+// function Reverse(a) {
+//     let Reverse = a.toString().split('').reverse().join('')
+//     let Final = parseInt(Reverse)
+//     console.log(Final)
+// }
+// Reverse(75)
+
+//Masala - 9
+
+// function func(a) {
+//     let Final = parseInt(a.toString().split('').slice(0,1).join())
+//     console.log(Final);
+// }
+// func(456)
+
+//Masala - 10
+
+// function func() {
+//     let a = 321
+//     let Final = parseInt(a.toString().split('').slice(1,3).reverse().join('') )
+//     console.log(Final);
+// }
+// func()
+
+//Masala - 11
+
+// function All(a) {
+//     let Final = a.toString().split('')
+//     for (let i = 0; i < Final.length; i++) {
+//         let el1 = parseInt(Final[0])
+//         let el2 = parseInt(Final[1])
+//         let el3 = parseInt(Final[2])
+//         let All = el1 +el2 + el3
+//         console.log(All);
+//     }
+// }
+// All(325)
+
+//Masala - 12
+
+// function a(s) {
+
+//     let Final = parseInt(s.toString().split('').reverse().join(''))
+//     console.log(Final);
+// }
+// a(321)
+
+//Masala - 13
+//Masala - 14
+//Masala - 15
+
+// function Change(son) {
+//     let a = son.toString().split('').slice(0,2).reverse().join('') + son.toString().split('').slice(2,3)
+//     let Final = parseInt(a)
+//     console.log(Final);
+// }
+// Change(546)
+
+//Masala - 16
+
+// function Change(son) {
+//     let a =  son.toString().split('').slice(0,1) + son.toString().split('').slice(1,3).reverse().join('')
+//     let Final = parseInt(a)
+//     console.log(Final);
+// }
+// Change(576)
+
+//Masala - 17
+//Masala - 18
+//Masala - 19
+//Masala - 20
+//Masala - 21
+//Masala - 22
+//Masala - 23
+//Masala - 24
+//Masala - 25
+//Masala - 26
+//Masala - 27
+//Masala - 28
+//Masala - 29
+//Masala - 30
+
+//------------1------------//
+
+// function Musbat(a) {
+//   if (a > 0) {
+//     return `${a} musbat son`;
+//   } else if (a === 0) {
+//     return `${a} neytral son`;
+//   } else {
+//     return `${a} manfiy son`;
+//   }
+// }
+// console.log(Musbat(10));
+
+//------------2------------//
+
+// function Toq(a) {
+//   if (a % 2 !== 0) {
+//     return `${a} toq son`;
+//   } else {
+//     return `${a} toq son emas`;
+//   }
+// }
+// console.log(Toq(17));
+
+//------------3------------//
+
+// function Juft(a) {
+//   if (a % 2 === 0) {
+//     return `${a} juft son`;
+//   } else {
+//     return `${a} juft son emas`;
+//   }
+// }
+// console.log(Juft(17));
+
+//------------4------------//
+
+// function func(a, b) {
+//   if (a > 2 && b <= 3) {
+//     return `${a} katta 2 dan\n${b} kichik yoki teng 3 dan`;
+//   } else {
+//     return `${a} soni 2 dan kichik\n${b} katta 3 dan`;
+//   }
+// }
+// console.log(func(1, 8));
+
+//------------5------------//
+
+// function func(a, b) {
+//   if (a >= 0 && b < -2) {
+//     return `${a} katta 0 dan\n${b} kichik -2 dan`;
+//   } else {
+//     return `Amalda xatolik mavjud`;
+//   }
+// }
+// console.log(func(7, -3));
+
+//------------6------------//
+
+// function func(a, b, c) {
+//   if (a <= b <= c) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+// console.log(func(30, 20, 10));
+
+//------------7------------//
+
+// function func(a, b, c) {
+//   if (a < b && c > b) {
+//     return `${b} soni ${a} va ${c} sonlari orasida yotuvchi son`;
+//   } else {
+//     return `${b} soni ${a} dan kichik yoki ${c} dan katta`;
+//   }
+// }
+// console.log(func(14, 19, 24));
+
+//------------8------------//
+
+// function func(a, b) {
+//   if (a % 2 !== 0 && b % 2 !== 0) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+// console.log(func(17, 15));
+
+//------------9------------//
+
+// function func(a, b) {
+//   if (a % 2 !== 0 || b % 2 !== 0) {
+//     return `${a} yoki ${b} sonlarining biri toq`;
+//   } else {
+//     return `${a} va ${b} sonlari juft`;
+//   }
+// }
+// console.log(func(17, 224));
+
+//------------10-----------//
+
+// function func(a, b) {
+//   if (a % 2 !== 0 || b % 2 !== 0) {
+//     return `Bu sonlardan biri toq`;
+//   } else {
+//     return `Bu sonlarning ikkisi ham juft`;
+//   }
+// }
+// console.log(func(18, 224));
+
+//------------11-----------//
+
+// function ToqJuft(a, b) {
+//   if (a % 2 !== 0 && b % 2 !== 0) {
+//     return `${a} va ${b} toq sonlar`;
+//   } else if (a % 2 === 0 && b % 2 === 0) {
+//     return `${a} va ${b} juft sonlar`;
+//   } else {
+//     return `Biri juft va biri toq sonlar`;
+//   }
+// }
+// console.log(ToqJuft(100, 1000));
+
+//------------12-----------//
+
+// function musbat(a, b, c) {
+//   if (a > 0 && b > 0 && c > 0) {
+//     return `${a} , ${b} , ${c} sonlar musbat`;
+//   } else {
+//     return `${a} , ${b} , ${c} sonlar orasida manfiy son bor`;
+//   }
+// }
+// console.log(musbat(10, -5, 3));
+
+//------13 va 14 va 15-----//
+
+// function func(a,b,c) {
+//   if (a > 0 || b > 0 || c > 0) {
+//     return true;
+//   }else{
+//     return false
+//   }
+// }
+// console.log(func(14,12,-16));
+
+//---------16 va 17--------//
+
+// function func(a) {
+//   let xonalarSoni = a.toString().split("").length;
+//   if (a % 2 == 0) {
+//     return `${a} juft son ${xonalarSoni} xonali`;
+//   } else {
+//     return `${a} toq son ${xonalarSoni} xonali`;
+//   }
+// }
+// console.log(func(18));
+
+//------------18-----------//
+
+// function func(a, b, c) {
+//   if (a == b || b == c || a == c) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+// console.log(func(12, 14, 14));
+
+//------------19-----------//
+
+// function func(a, b, c) {
+//   if (a + b == 0 || b + c == 0 || a + c == 0) {
+//     return "Qarama qarshi sonlar mavjud";
+//   } else {
+//     return "Unday son mavjud emas";
+//   }
+// }
+// console.log(func(14, -14, 12));
+
+//------------20-----------//
+
+// function func() {
+//   let Default = 189;
+//   const test = Default.toString().split("");
+//   for (let i = 0; i < test.length; i++) {
+//     const el1 = test[i];
+//     for (let j = 0; j < test.length; j++) {
+//       const el2 = test[j];
+//       if (el1 !== el2) {
+//         return true;
+//       } else {
+//         return false;
+//       }
+//     }
+//   }
+// }
+// console.log(func());
+
+//------------21-----------//
+
+// function func(Default) {
+//   const sorted = parseInt(Default.toString().split("").sort().join(""));
+//   if (Default === sorted) {
+//     return `${Default} soni xonalari o'sish tartibida`;
+//   } else {
+//     return `${Default} soni xonalari o'sish tartibida emas`;
+//   }
+// }
+// console.log(func(123456789));
+
+//------------22-----------//
+
+// function func(Default) {
+//   const sorted = parseInt(Default.toString().split("").sort().join(""));
+//   const sortedReverse = parseInt(
+//     sorted.toString().split("").reverse().join("")
+//   );
+//   const DefaultReverse = parseInt(
+//     Default.toString().split("").reverse().join("")
+//   );
+//   if (sorted === Default && DefaultReverse === sortedReverse) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+// console.log(func(1357));
+
+//------------23-----------//
+
+// function test(Default) {
+//   const Reverse = parseInt(Default.toString().split("").reverse().join(""));
+//   if (Default === Reverse) {
+//     return `${Default} can be palindrome`;
+//   } else {
+//     return `${Default} isn't palidrome `;
+//   }
+// }
+// console.log(test(4334));
+
+// function points(games) {
+//     let Ball = 0;
+//     for (let i = 0; i < games.length; i++) {
+//       let el = games[i];
+//       let Club_1 = parseInt(el.slice(0, 1));
+//       let Club_2 = parseInt(el.slice(2, 3));
+//       if (Club_1 > Club_2) {
+//         Ball += 3;
+//       } else if (Club_1 === Club_2) {
+//         Ball += 1;
+//       } else if (Club_1 < Club_2) {
+//         Ball += 0;
+//       }
+//     }
+//     return Ball;
+//   }
+//   console.log(
+//     points(["1:0", "2:0", "3:0", "4:0", "2:1", "3:1", "4:1", "3:2", "4:2", "4:3"])
+//   );
+
+//---------1-masala--------//
+
+// function Func(son) {
+//   if (son > 0) {
+//     return son + 1;
+//   } else {
+//     return son + 0;
+//   }
+// }
+// console.log(Func(10));
+
+//---------2-masala--------//
+
+// function Func(son) {
+//   if (son > 0) {
+//     return son + 1;
+//   } else {
+//     return son - 2;
+//   }
+// }
+// console.log(Func(-10));
+
+//---------3-masala--------//
+
+// function Func(son) {
+//   if (son > 0) {
+//     return son + 1;
+//   } else if (son === 0) {
+//     return son + 10;
+//   } else {
+//     return son - 2;
+//   }
+// }
+// console.log(Func(0));
+
+//---------4-masala--------//
+
+// function Func() {
+//     let a = 10;
+//     let b = 12;
+//     let c = 14;
+//     if () {
+//       return ;
+//     }
+//   }
+//   console.log(Func());
+
+//---------5-masala--------//
+//---------6-masala--------//
+
+// function Func(son_1, son_2) {
+//   if (son_1 > son_2) {
+//     return son_1;
+//   } else {
+//     return son_2;
+//   }
+// }
+// console.log(Func(30, 80));
+
+//---------7-masala--------//
+//---------8-masala--------//
+//---------9-masala--------//
+//--------10-masala--------//
+//--------30-masala--------//
