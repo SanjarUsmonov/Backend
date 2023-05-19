@@ -1265,3 +1265,11 @@
 //   }
 // }
 // console.log(Func(30, 80));
+
+//---------------------------------------------------//
+
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// const pagenation = (page, limit) => {
+//   return arr.slice(page * limit - limit, limit * page);
+// };
+// console.log(pagenation(1, 10));
