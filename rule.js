@@ -363,6 +363,13 @@
 //"Self Join"
 
 //-----------------------------------------------//
+
+// AVG() – return the average value.
+// COUNT() – return the number of values.
+// MAX() – return the maximum value.
+// MIN() – return the minimum value.
+// SUM() – return the sum of all or distinct values.
+
 //-----------------------------------------------//
 //-----------------------------------------------//
 //-----------------------------------------------//
