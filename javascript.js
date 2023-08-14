@@ -483,6 +483,74 @@
 // let val = arr.reverse()                                                              Arrayni teskari qilish!
 // console.log(val);
 
+//--------- ARRAY METHODS ---------//
+
+// const arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+// const result = arr.concat(10, 11, 12, 13, 14);
+// const result = arr.copyWithin(1, 9)
+// const result = arr.fill(0, 7, 9);
+// const result = arr.filter((el) => el < 5);
+// const result = arr.find((el) => el === 9);
+// const result = arr.flat(Infinity)
+// const result = arr.includes(5)
+// const result = arr.indexOf(5)
+// const result = arr.join(5)
+// const result = arr.lastIndexOf(5)
+// const result = arr.length
+// const result = arr.pop()
+// const result = arr.push(10)
+// const result = arr.reduce((a, b) => a + b);
+// const result = arr.reverse()
+// const result = arr.shift()
+// const result = arr.unshift(10)
+// const result = arr.slice(0,5)
+// const result = arr.splice(0,5)
+// const result = arr.toString()
+// const result = arr.sort()
+// const result = arr.some((el) => el % 2 === 0);
+
+//--------- OBJECT METHODS ---------//
+
+// const obj = {
+//   username: "usmonov",
+//   password: 12345678,
+// };
+
+// const result = Object.values(obj)
+// const result = Object.keys(obj)
+// const result = Object.assign(obj, obj2)
+// const result = Object.create(obj2)
+// const result = Object.hasOwn(obj, 'username')
+// const result = Object.is(1,5)
+// const result = Object.seal(obj)
+// const result = Object.isSealed(obj)
+// const result = Object.freeze(obj)
+// const result = Object.isFrozen(obj)
+
+//--------- STRING METHODS ---------//
+
+// const str = "UsmOnoV"
+// const str2 = "SanjaR"
+
+// const result = str.charAt(5)
+// const result = str.charCodeAt(5)
+// const result = str.concat(' ', str2)
+// const result = str.endsWith("V")
+// const result = str.includes('U')
+// const result = str.indexOf("UsmOnoV")
+// const result = str.length
+// const result = str.localeCompare(str2)
+// const result = str.match(/[A-Z]/g)
+// const result = str.trim()
+// const result = str.padEnd(10, ".")
+// const result = str.padStart(11, "*")
+// const result = str.repeat(5)
+// const result = str.replace("U", "O")
+// const result = str.search("V")
+// const result = str.startsWith("U")
+// const result = str.substring(0, 3)
+
 //---------------------------------------------------//
 
 // let arr = [1, 2, true,undefined, 'sanjar',
