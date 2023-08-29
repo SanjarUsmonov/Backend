@@ -1341,3 +1341,36 @@
 //   return arr.slice(page * limit - limit, limit * page);
 // };
 // console.log(pagenation(1, 10));
+
+//---------------------------------------------------//
+
+// function Ticket(num) {
+//     let str = num.toString().padStart(N, "0");
+//     let half = str.length / 2;
+//     let left = str.slice(0, half);
+//     let right = str.slice(half);
+
+//     let reduce_l = left.split("").reduce((a, b) => parseInt(a) + parseInt(b));
+//     let reduce_r = right.split("").reduce((a, b) => parseInt(a) + parseInt(b));
+
+//     return reduce_l === reduce_r;
+//   }
+
+//   function Count(length) {
+//     if (length % 2 === 0) {
+//       let count = 0;
+//       let end = Math.pow(10, length) - 1;
+//       for (let i = 0; i <= end; i++) {
+//         if (Ticket(i)) {
+//           count++;
+//         }
+//       }
+//       return count;
+//     } else {
+//       return "ERROR : Juft xonali son kiritilsin !";
+//     }
+//   }
+
+//   let N = 7;
+
+//   console.log(Count(N));
