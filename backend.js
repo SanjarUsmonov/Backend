@@ -300,3 +300,56 @@
 
 //-----------------------------------------------//
 
+// const fs = require("fs");
+
+// -------------- Create file --------------//
+
+// fs.writeFile("mynewfile1.txt", "Hello", (err) => {
+//   if (err) throw err;
+//   console.log("Created!");
+// });
+
+// fs.open("mynewfile2.txt", "w", function (err) {
+//   if (err) throw err;
+//   console.log("Created!");
+// });
+
+// fs.appendFile("mynewfile3.txt", "Hello content!", function (err) {
+//   if (err) throw err;
+//   console.log("Created!");
+// });
+
+// -------------- Update --------------//
+
+// fs.appendFile("mynewfile2.txt", " This is my text", function (err) {
+//   if (err) throw err;
+//   console.log("Updated!"); // Over load
+// });
+
+// fs.writeFile("mynewfile2.txt", "This is my text", function (err) {
+//   if (err) throw err;
+//   console.log("Replaced!"); // Over ride
+// });
+
+// fs.rename("mynewfile3.txt", "myrenamedfile.txt", function (err) {
+//   if (err) throw err;
+//   console.log("Renamed!"); // Only filename change
+// });
+
+// -------------- Delete --------------//
+
+// fs.unlink("mynewfile1.txt", function (err) {
+//   if (err) throw err;
+//   console.log("File deleted!");
+// });
+
+// -------------- Read --------------//
+
+// fs.readFile("mynewfile2.txt", function (err, data) {
+//   fs.appendFile("text.txt", data, (err) => {
+//     if (err) throw err;
+//     console.log("Written!");
+//   });
+// });
+
+//-----------------------------------------------//
