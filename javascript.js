@@ -1,11 +1,10 @@
-//--------------------------------------------------JavaScript-------------------------------------------------------------//
+// --------------------------------------------------JavaScript-------------------------------------------------------------//
 
-// let a = 5;
-// let b = 5;
-// let c = a +-/* b;
-// console.log(c);
+// let a = 12;
+// let b = 24;
+// console.log(Math.max(a, b));
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // let person = {
 //   name: "sanjar",
@@ -24,7 +23,7 @@
 // val = person.address.city;
 // console.log(val);
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // val = numbers.unshift("hello");                 //oldiga qowiw
@@ -33,36 +32,13 @@
 // val = numbers.push("hello");                    //orqaga qowiw
 // console.log(numbers);
 
-//---------------------------------------------------//
-
-// let a = 12;
-// let b = 24;
-// console.log(Math.max(a, b));
-
-//---------------------------------------------------//
-
-// let a = 12
-// let b = 10
-// console.log(Math.min(a, b));
-
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // let number = 1212.9165116516
 // console.log(number.toFixed(3));
-
-//---------------------------------------------------//
-
-// let number = 1212.9165116516
 // console.log(number.toPrecision(6));
 
-//---------------------------------------------------//
-
-// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-// for (let i = 0; i < arr.length; i++) {
-//   console.log(arr[i]);
-// }
-
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // let letter = "World";
 // let natija = "";
@@ -71,7 +47,7 @@
 // }
 // console.log(natija);
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // let nums = 29;
 // let k = 0;
@@ -86,7 +62,7 @@
 //   console.log("Tub emas");
 // }
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // let text =
 //   "Biz bir nechta bollar bilan najot talimda oqiymiz. Bizning guruh juda zor";
@@ -98,9 +74,9 @@
 //   }
 //   console.log(a);
 // }
-// console.log(find(text, 8));
+// find(text, 8);
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // let arr = [
 //   "adac",
@@ -116,7 +92,7 @@
 // }
 // console.log(a);
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // function add(arr, num) {
@@ -124,11 +100,11 @@
 //     return arr[num - 1];
 //   }
 // }
-// console.log(add(nums, 9));
+// console.log(add(nums, 7));
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
-// let nums = [5, 15];
+// let nums = [50, 100];
 // function value(a) {
 //   let sum = null;
 //   for (let i = 0; i < a.length; i++) {
@@ -138,13 +114,7 @@
 // }
 // console.log(value(nums));
 
-//---------------------------------------------------//
-
-// let name = "Akbar";
-// let arr = ["name", 24, true, undefined, null];
-// for (let i = 0; i < arr.length; i++) console.log(arr[i]);
-
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // let arr = [0, -1, 2, -3, 1, -10];
 // for (i = 0; i < arr.length; i++) {
@@ -155,7 +125,7 @@
 //   }
 // }
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // let arr = [0, -1, 2, -3, 1, -10];
 // let musbat = null;
@@ -169,40 +139,12 @@
 // }
 // console.log([musbat, manfiy]);
 
-//---------------------------------------------------//
-
-// let arr = [10, -11, 21, -31, 11, -10];
-// let a = null;
-// let b = null;
-// for (i = 0; i < arr.length; i++) {
-//   if (arr[i] >= 0) {
-//     a += arr[i];
-//   } else {
-//     b += arr[i];
-//   }
-// }
-// console.log(a, b);
-
-//---------------------------------------------------//
-
-// let arr = ["Sanjar", "Xasan", "Abdulaziz", "Pirimqul", "Muhammadqodir"];
-// function instagram(name) {
-//   for (let i = 1; i < name.length; i++) {
-//     if (name[i].toUpperCase() === name[i]) {
-//       console.log(name.indexOf(name[i]));
-//     }
-//   }
-// }
-// instagram("AkbabjbburValiyev");
-
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // function ajratish(name) {
-//   console.log(name);
 //   let index = 0;
 //   for (i = 1; i < name.length; i++) {
 //     if (name[i].toUpperCase() === name[i]) {
-//       console.log(name[i]);
 //       index = i;
 //     }
 //   }
@@ -210,19 +152,7 @@
 // }
 // ajratish("UsmonovSanjar");
 
-//---------------------------------------------------//
-
-// let ism = "Akbarjon";
-// let copy = ism.slice(ism.length - 3, ism.length);
-// console.log(copy);
-
-//---------------------------------------------------//
-
-// let ism = "Abdulaziz";
-// let copy = ism.slice(4, ism.length);
-// console.log(copy);
-
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // let ism = "saidmuhhammadalixoja";
 // let a = ism.split("");
@@ -230,13 +160,13 @@
 // let n = a.join("");
 // console.log(n);
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // let sana = "12/09/2022";
 // let splited = sana.split("/");
 // console.log(splited.join("."));
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // let ism = "sanjar";
 // let a = ism[0].toUpperCase();
@@ -244,17 +174,7 @@
 // let d = ism.slice(1, ism.length);
 // console.log(b + d);
 
-//---------------------------------------------------//
-
-// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11];
-// arr.splice(1, 5);
-// console.log(arr);
-
-//---------------------------------------------------//
-
-// for (let a = 1; a <= 20; a++) console.log(a);
-
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // let ism = "sanjar";
 // let p = 0;
@@ -263,18 +183,7 @@
 // }
 // console.log(p);
 
-//---------------------------------------------------//
-
-// let word = "kiyik";
-// function isPalidron(word) {
-//   if (word === word.split("").reverse().join("")) {
-//     return true;
-//   }
-//   return false;
-// }
-// console.log(isPalidron(word));
-
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // let str = ["some", "somsa", "is", "men", "slide", "cycle", "cylindir"];
 // let arr = [];
@@ -288,7 +197,7 @@
 // }
 // console.log(findWord("s"));
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // let words = [
 //   "Salom men nemoman",
@@ -309,7 +218,7 @@
 // }
 // console.log(findNemo(words));
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // let arr = [9, 20];
 // let summ = 0;
@@ -321,7 +230,7 @@
 // }
 // console.log(plus(9, 20));
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // let summ = 1;
 // function plus(a) {
@@ -332,13 +241,13 @@
 // }
 // console.log(plus(4));
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // let val1 = prompt("H");
 // let val2 = alert("Q");
 // let val3 = confirm("W");
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 //     For OF
 
@@ -347,7 +256,7 @@
 //     console.log(str);
 // }
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 //     For IN
 
@@ -362,7 +271,7 @@
 //     str === 'name1' ?console.log('True') : 'Error';
 // }
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // let i = 0;
 // while (i < 10) {
@@ -370,7 +279,7 @@
 //   i++;
 // }
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 //              IIFE
 
@@ -378,7 +287,7 @@
 //   console.log("Ok");
 // })();
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 //              Funtion Declaration
 
@@ -387,7 +296,7 @@
 // }
 // f()
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 //               Funtion Expretion
 
@@ -396,7 +305,7 @@
 // }
 // a()
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 //     Radar
 
@@ -421,25 +330,25 @@
 // }
 // f(a)
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
-// let a = 3;
+// let a = 1;
 // let array = ["a", "b", "c", "d", "e", "f"];
 // for (let i = 0; i < array.length; i++) {
 //   let splited = array.slice(0, array.length - a);
-//   for (let i = 0; i <= a; i++) {
+//   for (let i = 1; i <= a; i++) {
 //     let plus = splited.unshift(" ");
 //   }
 //   console.log(splited);
 // }
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // let fill = nums.fill("joke", 4, 7);
 // console.log(fill);
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 //    Type find
 
@@ -458,7 +367,7 @@
 // });
 // console.log(findType);
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 //     Katta || Kichik
 
@@ -468,7 +377,7 @@
 // })
 // console.log(n);
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 //     Arrayni metodlari
 
@@ -483,7 +392,7 @@
 // let val = arr.reverse()                                                              Arrayni teskari qilish!
 // console.log(val);
 
-//--------- ARRAY METHODS ---------//
+// --------- ARRAY METHODS ---------//
 
 // const arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
@@ -507,10 +416,10 @@
 // const result = arr.slice(0,5)
 // const result = arr.splice(0,5)
 // const result = arr.toString()
-// const result = arr.sort()
+// const result = arr.sort() // sort() => 1)array, 2)number, 3)object, 4)string, 5)boolean, 6)undifined
 // const result = arr.some((el) => el % 2 === 0);
 
-//--------- OBJECT METHODS ---------//
+// --------- OBJECT METHODS ---------//
 
 // const obj = {
 //   username: "usmonov",
@@ -528,7 +437,7 @@
 // const result = Object.freeze(obj)
 // const result = Object.isFrozen(obj)
 
-//--------- STRING METHODS ---------//
+// --------- STRING METHODS ---------//
 
 // const str = "UsmOnoV"
 // const str2 = "SanjaR"
@@ -551,32 +460,7 @@
 // const result = str.startsWith("U")
 // const result = str.substring(0, 3)
 
-//---------------------------------------------------//
-
-// let arr = [1, 2, true,undefined, 'sanjar',
-// {
-//     ism:'sanjar',
-//     age:17,
-//     addres:{
-//         country:'uzb',
-//         city:'taw',
-//         st:'bayraq'
-//     },
-//     id:181652165156
-// }
-// ];
-// let val = arr.length;
-// console.log(val);
-
-//---------------------------------------------------//
-
-// let arr = [
-// {name:'sanjar', age:17 ,adderess:'uzbekistan'},
-// {name:'abdulloh', age:24, adderess:'tajikistan'}]
-// let findMe = arr[0].age+arr[1].age
-// console.log(findMe);
-
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // let arr = [
 //     {name:'sanjar', age:27 ,adderess:'uzbekistan',salary:2000},
@@ -588,71 +472,14 @@
 //     let reducedAge = arr.reduce(r,0)
 //     console.log(reducedAge);
 
-//---------------------------------------------------//
-
-// let a = Infinity
-// console.log(typeof a);
-
-//---------------------------------------------------//
-
-// let client = [{
-//     id:1,
-//     ism:'Vali',
-//     oylik: 3000
-// },
-// {
-//     id:2,
-//     ism:"Ulug'bek",
-//     oylik: 5000
-// },
-// {
-//     id:3,
-//     ism:'Sanjar',
-//     oylik: 1000
-// },
-// ];
-
-// let arr = []
-// function all(n) {
-//     for (let i = 0; index < users.length; i++) {
-//         sum = users.salary[n];
-//         console.log(sum);
-//     }
-// }
-// all()
-
-// function moneyUser(m){
-//     let sum = 0
-//     for(let i=0;i<users.length;i++){
-//         sum += users.salary[i]
-//     }
-//     return sum
-// }
-// console.log(moneyUser(sum));
-
-// let find = users.find(function(users){
-//     return users.username.toLowerCase() === 'joseipe'.toLowerCase()
-// })
-
-// console.log(find);
-// let foundUser = users.filter(function(user){
-//     return(user.salary > 2000)
-// })
-// console.log(foundUser);
-
-// let findUser = users.filter(function (users) {
-//     return users.salary > 2000
-// })
-// console.log(findUser);
-
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // let arr = [1,2,3,4,5,6,7,8,9,10]
-// // let s = arr.find(n => n > 4)
-// // let s = arr.filter(n => n > 4)
+// let s = arr.find(n => n > 4)
+// let s = arr.filter(n => n > 4)
 // console.log(s);
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // let user = [{
 //     name:'Valijon',
@@ -686,30 +513,29 @@
 // }
 // ];
 
-// // let findUser = user.filter(n => n.age > 15)
-// // let findUser = user.concat({
-// //     name:'Abdullajon',
-// //     age: 34,
-// //     address:{
-// //         country:'Krz',
-// //         city:'Osh',
-// //         st:'Quduq'
-// //     },
-// //     number:8873283899
-// // })
-// // let findUser = user.filter(n => n.address.country === 'Taj')
-// // let findUser = user.filter(n => n.age === 18 && n.address.city === 'Duw')
+// let findUser = user.filter(n => n.age > 15)
+// let findUser = user.concat({
+//     name:'Abdullajon',
+//     age: 34,
+//     address:{
+//         country:'Krz',
+//         city:'Osh',
+//         st:'Quduq'
+//     },
+//     number:8873283899
+// })
+// let findUser = user.filter(n => n.address.country === 'Taj')
+// let findUser = user.filter(n => n.age === 18 && n.address.city === 'Duw')
 
 // console.log(findUser);
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // let arr = [1,8,7,2,9,3,7,5,3,1,7,6,5,]
-// let filtered = arr.filter(n => n > 5)
 // let reduced = arr.reduce((a, b) => a + b,0)
 // console.log(reduced);
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // let companies = [{
 //     name: 'Auto',
@@ -737,111 +563,35 @@
 //     console.log(company.name);
 // })
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
-// let arr = [10,9,8,7,6,5,4,3,2,1,]
-// let all = null
-// for (a of arr) {
-//     all += a % 3
-// }
-// console.log(all);
-
-//---------------------------------------------------//
-
-// let obj = {
-//   name: "Musk",
-//   surname: "",
-//   age: 60,
-// };
-// let n = "";
-// for (a in obj) {
-//   if (Object.keys == n) {
-//     return;
-//   }
-// }
-
-//---------------------------------------------------//
-
-// let  a = 'V'
-// let  b = 't'
-
-// function Uppercaseed(n,m) {
-//     if (n.toUpperCase() == m.toUpperCase()) {
-//         return 1
-//     }else if (n.toLowerCase() == m.toLowerCase()){
-//         return 0
-//     }
-// }
-// console.log(Uppercaseed(a,b));
-
-//---------------------------------------------------//
-
-// let nums = "8118"
-// nums.split(" ")
-// for(let i = 0; i < arr.length; i++){
-// console.log(nums);}
-
-// let letter = "World"
-// let natija = ""
-// for (let i = 1; i <= letter.length; i++) {
-//     natija = natija + letter[letter.length -i]
-// }
-// console.log(natija);
-
-// let nums = 17
-// let k = 0
-// for (let i = 0; i <= nums; i++){
-//     if (nums % i == 0) {
-//         k += 1;
-//     }
-// }
-// if (k == 2){
-//     console.log("Tub son");
-// }
-// else{
-//     console.log("Tub emas");
-// }
-
-// let text = "Biz bir nechta bollar bilan najot talimda oqiymiz. Bizning guruh juda zor"
-// function find(text, b) {
-//     let a = ""
-//     let splitedText = text.split(" ")
-//     for (let i = 0; i < b; i++) {
-//          a = a + splitedText[i] + ' '
-//     }
-//     console.log(a);
-// }
-// console.log(find(text ,12));
-
-//---------------------------------------------------//
-
-// function all(all){
-// let like = 0
-// let dislike = 0
-// let Like = ("Likes are more than dislikes")
-// let Dislike = ("Dislikes are more than likes")
-// let empty = ("Similar")
-// for (let n = 0; n < all.length; n++) {
+// function all(all) {
+//   let like = 0;
+//   let dislike = 0;
+//   let Like = "Likes are more than dislikes";
+//   let Dislike = "Dislikes are more than likes";
+//   let empty = "Similar";
+//   for (let n = 0; n < all.length; n++) {
 //     if (all[n] == "like") {
-//         like += 1;
+//       like += 1;
 //     }
 //     if (all[n] == "dislike") {
-//         dislike += 1;
+//       dislike += 1;
 //     }
+//   }
+//   if (like > dislike) {
+//     return Like;
+//   } else if (dislike > like) {
+//     return Dislike;
+//   } else {
+//     return empty;
+//   }
 // }
-// if (like > dislike) {
-//     return Like
-// }
-// else if (dislike > like){
-//     return Dislike
-// }
-// else{
-//     return empty
-// }
-// }
-// console.log(all(["dislike", "like", "dislike", "like", "dislike"]));
+// console.log(
+//   all(["dislike", "like", "dislike", "like", "like", "like", "dislike"])
+// );
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // let elUsernameInp = document.getElementById('username');
 // let elPasswordInp = document.getElementById('password');
@@ -875,28 +625,9 @@
 // 	}
 // });
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
-// function birthdayCakeCandles(ar) {
-//   let a = 0;
-//   let max = 0;
-
-//   for (let i = 0; i < ar.length; i++) {
-//     if (ar[i] > max) {
-//       max = ar[i];
-//       a = 1;
-//     } else {
-//       if (max == ar[i]) {
-//         a++;
-//       }
-//     }
-//   }
-//   return a;
-// }
-
-//---------------------------------------------------//
-
-//find(), filter(), includes(), reduce(), reverse(), slice(a, b), splice(a, b), sort(), some()
+// find(), filter(), includes(), reduce(), reverse(), slice(a, b), splice(a, b), sort(), some()
 // const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // const metod = arr.find((el)=> el == 5)
 // const metod = arr.filter((el)=> el > 5)
@@ -909,7 +640,7 @@
 // const metod = arr.some((el) => el == 4)
 // console.log(metod);
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // function Width(a) {
 //     let L = 100
@@ -917,7 +648,7 @@
 // }
 // Width(5)
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // function Weight(a) {
 //     let M = 1000
@@ -925,7 +656,7 @@
 // }
 // Weight(5)
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // function Bayt(a) {
 //     let B = 1024
@@ -933,7 +664,7 @@
 // }
 // Bayt(5)
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // function TwoNum(a) {
 //   let b = a.toString().split('')
@@ -944,60 +675,7 @@
 // }
 // TwoNum(78)
 
-//---------------------------------------------------//
-
-// function Plus(a) {
-//     let b = a.toString().split('')
-//     for (let i = 0; i < b.length; i++) {
-//         let r = parseInt(b[0])
-//         let t = parseInt(b[1])
-//         let all = r + t
-//         console.log(all);
-//     }
-// }
-// Plus(75)
-
-//---------------------------------------------------//
-
-// function Reverse(a) {
-//     let Reverse = a.toString().split('').reverse().join('')
-//     let Final = parseInt(Reverse)
-//     console.log(Final)
-// }
-// Reverse(75)
-
-//---------------------------------------------------//
-
-// function func(a) {
-//     let Final = parseInt(a.toString().split('').slice(0,1).join())
-//     console.log(Final);
-// }
-// func(456)
-
-//---------------------------------------------------//
-
-// function func() {
-//     let a = 321
-//     let Final = parseInt(a.toString().split('').slice(1,3).reverse().join('') )
-//     console.log(Final);
-// }
-// func()
-
-//---------------------------------------------------//
-
-// function All(a) {
-//     let Final = a.toString().split('')
-//     for (let i = 0; i < Final.length; i++) {
-//         let el1 = parseInt(Final[0])
-//         let el2 = parseInt(Final[1])
-//         let el3 = parseInt(Final[2])
-//         let All = el1 +el2 + el3
-//         console.log(All);
-//     }
-// }
-// All(325)
-
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // function a(s) {
 
@@ -1006,7 +684,7 @@
 // }
 // a(321)
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // function Change(son) {
 //     let a = son.toString().split('').slice(0,2).reverse().join('') + son.toString().split('').slice(2,3)
@@ -1015,7 +693,7 @@
 // }
 // Change(546)
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // function Change(son) {
 //     let a =  son.toString().split('').slice(0,1) + son.toString().split('').slice(1,3).reverse().join('')
@@ -1024,7 +702,7 @@
 // }
 // Change(576)
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // function Musbat(a) {
 //   if (a > 0) {
@@ -1037,7 +715,7 @@
 // }
 // console.log(Musbat(10));
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // function Toq(a) {
 //   if (a % 2 !== 0) {
@@ -1048,7 +726,7 @@
 // }
 // console.log(Toq(17));
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // function Juft(a) {
 //   if (a % 2 === 0) {
@@ -1059,7 +737,7 @@
 // }
 // console.log(Juft(17));
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // function func(a, b) {
 //   if (a > 2 && b <= 3) {
@@ -1070,7 +748,7 @@
 // }
 // console.log(func(1, 8));
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // function func(a, b) {
 //   if (a >= 0 && b < -2) {
@@ -1081,7 +759,7 @@
 // }
 // console.log(func(7, -3));
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // function func(a, b, c) {
 //   if (a <= b <= c) {
@@ -1092,7 +770,7 @@
 // }
 // console.log(func(30, 20, 10));
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // function func(a, b, c) {
 //   if (a < b && c > b) {
@@ -1103,7 +781,7 @@
 // }
 // console.log(func(14, 19, 24));
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // function func(a, b) {
 //   if (a % 2 !== 0 && b % 2 !== 0) {
@@ -1114,7 +792,7 @@
 // }
 // console.log(func(17, 15));
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // function func(a, b) {
 //   if (a % 2 !== 0 || b % 2 !== 0) {
@@ -1125,7 +803,7 @@
 // }
 // console.log(func(17, 224));
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // function func(a, b) {
 //   if (a % 2 !== 0 || b % 2 !== 0) {
@@ -1136,7 +814,7 @@
 // }
 // console.log(func(18, 224));
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // function ToqJuft(a, b) {
 //   if (a % 2 !== 0 && b % 2 !== 0) {
@@ -1147,9 +825,9 @@
 //     return `Biri juft va biri toq sonlar`;
 //   }
 // }
-// console.log(ToqJuft(100, 1000));
+// console.log(ToqJuft(100, 1001));
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // function musbat(a, b, c) {
 //   if (a > 0 && b > 0 && c > 0) {
@@ -1160,18 +838,7 @@
 // }
 // console.log(musbat(10, -5, 3));
 
-//---------------------------------------------------//
-
-// function func(a,b,c) {
-//   if (a > 0 || b > 0 || c > 0) {
-//     return true;
-//   }else{
-//     return false
-//   }
-// }
-// console.log(func(14,12,-16));
-
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // function func(a) {
 //   let xonalarSoni = a.toString().split("").length;
@@ -1183,7 +850,7 @@
 // }
 // console.log(func(18));
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // function func(a, b, c) {
 //   if (a == b || b == c || a == c) {
@@ -1192,9 +859,9 @@
 //     return false;
 //   }
 // }
-// console.log(func(12, 14, 14));
+// console.log(func(12, 14, 10));
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // function func(a, b, c) {
 //   if (a + b == 0 || b + c == 0 || a + c == 0) {
@@ -1205,26 +872,7 @@
 // }
 // console.log(func(14, -14, 12));
 
-//---------------------------------------------------//
-
-// function func() {
-//   let Default = 189;
-//   const test = Default.toString().split("");
-//   for (let i = 0; i < test.length; i++) {
-//     const el1 = test[i];
-//     for (let j = 0; j < test.length; j++) {
-//       const el2 = test[j];
-//       if (el1 !== el2) {
-//         return true;
-//       } else {
-//         return false;
-//       }
-//     }
-//   }
-// }
-// console.log(func());
-
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // function func(Default) {
 //   const sorted = parseInt(Default.toString().split("").sort().join(""));
@@ -1236,7 +884,7 @@
 // }
 // console.log(func(123456789));
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // function func(Default) {
 //   const sorted = parseInt(Default.toString().split("").sort().join(""));
@@ -1252,9 +900,9 @@
 //     return false;
 //   }
 // }
-// console.log(func(1357));
+// console.log(func(1327));
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // function test(Default) {
 //   const Reverse = parseInt(Default.toString().split("").reverse().join(""));
@@ -1266,7 +914,7 @@
 // }
 // console.log(test(4334));
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // function points(games) {
 //     let Ball = 0;
@@ -1285,10 +933,10 @@
 //     return Ball;
 //   }
 //   console.log(
-//     points(["1:0", "2:0", "3:0", "4:0", "2:1", "3:1", "4:1", "3:2", "4:2", "4:3"])
+//     points(["1:0", "2:0", "3:0", "4:0", "2:1", "3:1", "4:1", "3:2", "4:2", "4:3", "0:1", "4:3"])
 //   );
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // function Func(son) {
 //   if (son > 0) {
@@ -1299,7 +947,7 @@
 // }
 // console.log(Func(10));
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // function Func(son) {
 //   if (son > 0) {
@@ -1310,7 +958,7 @@
 // }
 // console.log(Func(-10));
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // function Func(son) {
 //   if (son > 0) {
@@ -1323,7 +971,7 @@
 // }
 // console.log(Func(0));
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // function Func(son_1, son_2) {
 //   if (son_1 > son_2) {
@@ -1334,7 +982,7 @@
 // }
 // console.log(Func(30, 80));
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // const pagenation = (page, limit) => {
@@ -1342,7 +990,7 @@
 // };
 // console.log(pagenation(1, 10));
 
-//---------------------------------------------------//
+// ---------------------------------------------------//
 
 // function Ticket(num) {
 //     let str = num.toString().padStart(N, "0");
@@ -1371,6 +1019,40 @@
 //     }
 //   }
 
-//   let N = 7;
+//   let N = 8;
 
 //   console.log(Count(N));
+
+// ---------------------------------------------------//
+
+
+
+// ---------------------------------------------------//
+
+
+
+// ---------------------------------------------------//
+
+
+
+// ---------------------------------------------------//
+
+
+
+// ---------------------------------------------------//
+
+
+
+// ---------------------------------------------------//
+
+
+
+// ---------------------------------------------------//
+
+
+
+// ---------------------------------------------------//
+
+
+
+// ---------------------------------------------------//

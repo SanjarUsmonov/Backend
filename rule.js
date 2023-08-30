@@ -110,6 +110,7 @@
 
 //typyOf
 //typyOf bergan javobi stringda bo'ladi va 2 marta typeOf ketma-ket iwlatsak faqat va faqat string beradi
+//typeOf Infinity === number
 
 //-----------------------------------------------//
 
